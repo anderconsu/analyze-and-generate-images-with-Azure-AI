@@ -16,7 +16,6 @@ const analizeImage = async (imageUrl) => {
         });
         console.log('response:', response)
         const data = await response.json();
-        console.log(data)
         return data    
     }
     catch (error) {
